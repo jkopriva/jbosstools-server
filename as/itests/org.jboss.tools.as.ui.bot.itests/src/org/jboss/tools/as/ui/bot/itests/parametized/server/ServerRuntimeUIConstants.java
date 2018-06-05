@@ -61,11 +61,11 @@ public class ServerRuntimeUIConstants {
 	
 	public static final String[] LATEST_MAJORS_FREE_DOWNLOADS = new String[] {
 			GATE_IN_3_6, JBAS_423, JBAS_510, JBAS_600, JBAS_711, 
-			WF_821, WF_902, WF_10_1_0, WF_11_0_0};
+			WF_821, WF_902, WF_10_1_0, WF_11_0_0, WF_12_0_0};
 
 	
 	public static final String[] FREE_DOWNLOADS = new String[] {
-			WF_821, WF_902,  WF_10_0_0, WF_10_1_0, WF_11_0_0, WF_12_0_0}; // 
+			JBAS_423, WF_821, WF_902,  WF_10_0_0, WF_10_1_0, WF_11_0_0, WF_12_0_0}; // 
 
 //	public static final String[] MANUAL_DOWNLOAD = new String[]{JPP_600,JBEAP_600, JBEAP_601};
 
