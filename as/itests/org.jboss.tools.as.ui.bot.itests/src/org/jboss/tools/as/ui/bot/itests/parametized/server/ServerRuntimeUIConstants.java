@@ -124,7 +124,7 @@ public class ServerRuntimeUIConstants {
 		addEntry(WF_16_0_0, 	"WildFly 16.0",			"16.0", "WildFly", 	"wildfly-16.0.0.Final",			STANDARD_DEPLOY, STANDARD_UNDEPLOY, wfEditorPorts());
 		addEntry(WF_17_0_0, 	"WildFly 17.0",			"17.0", "WildFly", 	"wildfly-17.0.0.Final",			STANDARD_DEPLOY, STANDARD_UNDEPLOY, wfEditorPorts());
 		addEntry(WF_18_0_0, 	"WildFly 18.0",			"18.0", "WildFly", 	"wildfly-18.0.0.Final",			STANDARD_DEPLOY, STANDARD_UNDEPLOY, wfEditorPorts());
-		addEntry(WF_19_0_0, 	"WildFly 19.0",			"19.0", "WildFly", 	"wildfly-19.0.0.Final",			STANDARD_DEPLOY, STANDARD_UNDEPLOY, wfEditorPorts());
+		addEntry(WF_19_0_0, 	"wildfly-19.0.0.Final",			"19.0", "WildFly", 	"wildfly-19.0.0.Final",			STANDARD_DEPLOY, STANDARD_UNDEPLOY, wfEditorPorts());
 		addEntry(JBEAP_610, 	"Red Hat JBoss EAP 6.1", "6.1",	"EAP", 		"jboss-eap-6.1", 				STANDARD_DEPLOY, STANDARD_UNDEPLOY, as7EditorPorts());
 		addEntry(JBEAP_620, 	"Red Hat JBoss EAP 6.2", "6.2",	"EAP", 		"jboss-eap-6.2", 				STANDARD_DEPLOY, STANDARD_UNDEPLOY, as7EditorPorts());
 		addEntry(JBEAP_630, 	"Red Hat JBoss EAP 6.3", "6.3",	"EAP",		"jboss-eap-6.3", 				STANDARD_DEPLOY, STANDARD_UNDEPLOY, as7EditorPorts());
