@@ -153,12 +153,7 @@ public class OperateServerTemplate {
 	}
 
 	public void restartServer() {
-		try {
-			serversView.getServer(getServerName()).restart();
-		} catch (WaitTimeoutExpiredException ex){
-			//try it once again
-			serversView.getServer(getServerName()).restart();
-		}
+		serversView.getServer(getServerName()).restart();
 		tryServerProcessNotTerminated();
 		final String state = "Started";
 		new WaitUntil(new ConsoleHasNoChange(TimePeriod.getCustom(5)), TimePeriod.LONG);
